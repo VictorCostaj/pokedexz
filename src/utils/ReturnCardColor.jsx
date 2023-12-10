@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const getColors = (type: any) => {
+export const getColors = (type) => {
     switch (type) {
         case 'bug':
             return '#76A866';
