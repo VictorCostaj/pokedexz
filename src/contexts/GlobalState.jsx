@@ -27,6 +27,8 @@ const GlobalState = ({ children }) => {
         localStorage.setItem('pokemonsPokedex', listPokemonsSalvesPokedex);
     };
 
+
+
     useEffect(() => {
         const listPokedexLocalStorage = JSON.parse(
             localStorage.getItem('pokemonsPokedex')

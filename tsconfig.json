@@ -9,6 +9,7 @@
     /* Bundler mode */
     "moduleResolution": "node",
     "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
