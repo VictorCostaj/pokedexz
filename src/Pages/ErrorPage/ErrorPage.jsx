@@ -1,9 +1,13 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import images from '../../assets/importImages';
 import Header from '../../Components/Header/Header';
+ // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import {
     ContainerErrorPage,
     GifImage,
+   
     GifImageContainer,
     TituloError,
 } from './ErrorPageStyle';

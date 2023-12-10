@@ -84,7 +84,7 @@ const PokemonCard = ({ id, name, updateList }) => {
                     captureTypes();
                     idCorrected();
                 }
-            } catch (error) {}
+            } catch (error) { /* empty */ }
         };
         captureDatas();
     }, [id, data]);
